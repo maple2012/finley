@@ -4,7 +4,7 @@
     <list default="true" id="521c32eb-999f-4aeb-8671-efe7d1e984f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/TopicsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/UserTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/UserTransformer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,13 +26,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/TopicsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="508">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="e#44#65#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Transformers/RoleTransformer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#36#70#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Transformers/UserTransformer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="e#36#56#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,7 +108,6 @@
         <option value="$PROJECT_DIR$/app/Http/Requests/Api/AuthorizationRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/AuthorizationsController.php" />
         <option value="$PROJECT_DIR$/app/Console/Commands/GenerateToken.php" />
-        <option value="$PROJECT_DIR$/app/Transformers/UserTransformer.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Models/Traits/LastActivedAtHelper.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_23_223840_create_images_table.php" />
@@ -111,6 +134,8 @@
         <option value="$PROJECT_DIR$/app/Transformers/PermissionTransformer.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/PermissionsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/TopicsController.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/RoleTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/UserTransformer.php" />
       </list>
     </option>
   </component>
@@ -351,12 +376,12 @@
       <workItem from="1548247297001" duration="5807000" />
       <workItem from="1548291830506" duration="44000" />
       <workItem from="1548332680659" duration="3520000" />
-      <workItem from="1548507000985" duration="1063000" />
+      <workItem from="1548507000985" duration="1663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29407000" />
+    <option name="totallyTimeSpent" value="30007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -389,13 +414,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/dingo/api/src/Exception/ValidationHttpException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/dingo/api/src/Http/FormRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -558,16 +576,6 @@
           <folding>
             <element signature="e#7#240#0#PHP" expanded="true" />
             <element signature="e#269#308#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Transformers/UserTransformer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#35#55#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -795,9 +803,29 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/TopicsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="e#44#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/RoleTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#36#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/UserTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#36#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
